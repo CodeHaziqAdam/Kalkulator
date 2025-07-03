@@ -1,0 +1,62 @@
+ /* memberikan dekorasi pada layar/body */
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+/* 
+memberikan dekorasi pada class container yaitu class yang untuk memasukkan angka1 dan angka2 */
+    .container {
+      background-color: #ffffff;
+      padding: 30px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 320px;
+    }
+
+/* memperbaiki tulisan h2 yang bertuliskan kalkulator sederhana */
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+/* 
+memperbaiki tulisan yaitu untuk label yang bertuliskan angka1 dan angka2 */
+    label {
+      font-weight: bold;
+    }
+/* 
+memperbaiki input,select, dan juga tombol button  */
+    input, select, button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      margin-bottom: 16px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+/* 
+memberikan dekorasi pada tombol button */
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: 0.2s ease;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+/* memperbaiki tulisan dan sekaligus memberikan warna pada tombol hasil */
+    #hasil {
+      text-align: center;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }

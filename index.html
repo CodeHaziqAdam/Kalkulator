@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- untuk memasukkan angka pertama dan angka kedua -->
+    <h2>Kalkulator Sederhana</h2>
+
+    <label>Angka Pertama:</label>
+    <input type="text" id="angka1">
+
+    <label>Angka Kedua:</label>
+    <input type="text" id="angka2">
+
+    <!-- untuk memasukkan macam macam operasi penjumlahannya -->
+    <label>Pilih Operasi:</label>
+    <select id="operasi">
+      <option value="+">Tambah (+)</option>
+      <option value="-">Kurang (-)</option>
+      <option value="*">Kali (×)</option>
+      <option value="/">Bagi (/)</option>
+    </select>
+
+    <!-- tombol yang berfungsi untuk memencet tombol hitung -->
+    <button onclick="hitung()">Hitung</button>
+
+    <p id="hasil"></p>
+  </div>
+</body>
+    <script src="script.js"></script>   
+</html>
